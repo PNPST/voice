@@ -2,11 +2,14 @@ package com.wenkesj.voice;
 
 import android.Manifest;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.IBinder;
 import android.speech.RecognitionListener;
 import android.speech.RecognitionService;
 import android.speech.RecognizerIntent;
